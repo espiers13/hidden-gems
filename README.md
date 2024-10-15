@@ -14,7 +14,7 @@ Frontend APP: https://hidden-gems-frontend.vercel.app/ <br>
 Frontend Repo: https://github.com/christianaao/hidden-gems-frontend <br>
 Original Repo Link: https://github.com/flynnjim/hidden-gems-frontend <br>
 
-## features of this Project
+## Features of This Project
 
 This project was created using Model View Controller architecture, using Agile workflow.
 
@@ -36,7 +36,7 @@ GET /api/gems/:gem_id <br>
 POST /api/gems <br>
 PATCH /api/gems <br>
 
-## Running this Project Locally
+## Running This Project Locally
 
 ### Installation
 
