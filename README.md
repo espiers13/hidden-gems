@@ -1,7 +1,16 @@
 # Hidden Gems API
 
-Hosted on: Render
-// INSERT URL TO API //
+## Project Links
+
+Backend API: https://hidden-gems-cd0h.onrender.com/api <br>
+Backend Repo: https://github.com/christianaao/hidden-gems <br>
+Original Repo Link: https://github.com/espiers13/hidden-gems <br>
+
+Frontend APP: https://hidden-gems-frontend.vercel.app/ <br>
+Frontend Repo: https://github.com/christianaao/hidden-gems-frontend <br>
+Original Repo Link: https://github.com/flynnjim/hidden-gems-frontend <br>
+
+## About This Project
 
 Hidden Gems is an API built for the purpose of accessing application data programatically for a front end application.
 This is the backend service which provides information about events and places in Manchester, user information, and comment information, and provides this information to the front end architecture.
