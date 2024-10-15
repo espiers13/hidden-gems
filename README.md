@@ -1,5 +1,9 @@
 # Hidden Gems API
 
+## About This Project
+
+This API was built for the purpose of accessing application data programatically for a front end application. This is the backend server which provides information about events and places in Greater Manchester, user information, and comment information, and provides this information to the front end architecture.
+
 ## Project Links
 
 Backend API: https://hidden-gems-cd0h.onrender.com/api <br>
@@ -10,61 +14,58 @@ Frontend APP: https://hidden-gems-frontend.vercel.app/ <br>
 Frontend Repo: https://github.com/christianaao/hidden-gems-frontend <br>
 Original Repo Link: https://github.com/flynnjim/hidden-gems-frontend <br>
 
-## About This Project
+## features of this Project
 
-Hidden Gems is an API built for the purpose of accessing application data programatically for a front end application.
-This is the backend service which provides information about events and places in Manchester, user information, and comment information, and provides this information to the front end architecture.
+This project was created using Model View Controller architecture, using Agile workflow.
 
-The API has the following endpoints:
-GET /api
-GET /api/users
-GET /api/users/:user_id
-POST /api/users
-PATCH /api/users
-GET /api/comments
-GET /api/comments/:gem_id
-POST /api/comments
-DELETE /api/comments/:comment_id
-POST /api/gems
-PATCH /api/gems
+This project was written in JavaScript through Test Driven Development (TDD) using Jest and SuperTest. This datbase is run with PostgreSQL and node-postgres.
 
-This datbase is run with PostgreSQL and node-postgres.
+### Available Endpoints
+
+GET /api <br>
+GET /api/users <br>
+GET /api/users/:user_id <br>
+POST /api/users <br>
+PATCH /api/users <br>
+GET /api/comments <br>
+GET /api/comments/:gem_id <br>
+POST /api/comments <br>
+DELETE /api/comments/:comment_id <br>
+GET /api/gems <br>
+GET /api/gems/:gem_id <br>
+POST /api/gems <br>
+PATCH /api/gems <br>
+
+## Running this Project Locally
+
+### Installation
 
 To install PostgreSQL: https://www.w3schools.com/postgresql/postgresql_install.php
 
-To install npm:
-npm install npm@latest -g
+To install npm: `npm install npm@latest -g`
 
-Installation:
+### Setup and Software Requirements
 
-1. Clone the repo:
-   https://github.com/espiers13/hidden-gems.git
+1. Clone or fork this repo.
 
-2. Install dependencies:
-   npm install
+2. In your terminal, locate the directory you would like to save the code to and type `git clone` followed by the cloned/forked repo link.
 
-3. devDependencies used:
-   {
-   "husky": "^9.1.6",
-   "jest": "^29.7.0",
-   "jest-extended": "^4.0.2",
-   "jest-sorted": "^1.0.15",
-   "supertest": "^7.0.0"
-   }
+3. In the cloned directory, type `npm install` in your terminal to install all dependencies.
+   #### Dev Dependencies used:
+      {
+      "husky": "^9.1.6",
+      "jest": "^29.7.0",
+      "jest-extended": "^4.0.2",
+      "jest-sorted": "^1.0.15",
+      "supertest": "^7.0.0"
+      }
 
-4. In order to successfully connect the two databases in be-nc-news locally the following files must be added:
-   .env.development
-   .env.test
+4. Create two dotenv files: `.env.test` and `.env.development`, and insert `PGDATABASE=hidden_gems_test` and `PGDATABASE=hidden_gems` to the files respectively. This will allow you to connect to the databases.
 
-These files must contain the following:
-.env.development --> PGDATABASE=hidden_gems
-.env.test --> PGDATABASE=hidden_gems_test
+5. Type `npm run setup-dbs` in the terminal to set up the database
 
-5. In order to set up the database run command:
-   npm run setup-dbs
+6. Type `npm run seed` in the terminal to seed the local database
 
-6. To seed the local database run command:
-   npm run seed
+7. To run the code, run `npm run dev` for the server data or `npm test` for the test data in the terminal.
 
-7. Tests are run using jest supertest. To run tests use command:
-   npm run test
+☺ I hope you enjoy testing my server ☺
