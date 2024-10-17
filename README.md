@@ -22,19 +22,19 @@ This project was written in JavaScript through Test Driven Development (TDD) usi
 
 ### Available Endpoints
 
-GET /api <br>
-GET /api/users <br>
-GET /api/users/:user_id <br>
-POST /api/users <br>
-PATCH /api/users <br>
-GET /api/comments <br>
-GET /api/comments/:gem_id <br>
-POST /api/comments <br>
-DELETE /api/comments/:comment_id <br>
-GET /api/gems <br>
-GET /api/gems/:gem_id <br>
-POST /api/gems <br>
-PATCH /api/gems <br>
+* GET /api <br>
+* GET /api/users <br>
+* GET /api/users/:user_id <br>
+* POST /api/users <br>
+* PATCH /api/users <br>
+* GET /api/comments <br>
+* GET /api/comments/:gem_id <br>
+* POST /api/comments <br>
+* DELETE /api/comments/:comment_id <br>
+* GET /api/gems <br>
+* GET /api/gems/:gem_id <br>
+* POST /api/gems <br>
+* PATCH /api/gems <br>
 
 ## Running This Project Locally
 
